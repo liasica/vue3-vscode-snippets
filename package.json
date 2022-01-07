@@ -2,7 +2,8 @@
     "name": "vue3-vscode-snippets",
     "displayName": "vue3 vscode snippets",
     "description": "Vue3 useful snippets",
-    "version": "0.0.1",
+    "version": "0.0.1-alpha",
+    "repository": "https://github.com/liasica/vue3-vscode-snippets",
     "engines": {
         "vscode": "^1.63.0"
     },
