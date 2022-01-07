@@ -1,0 +1,29 @@
+{
+  "v3": {
+    "prefix": "v3",
+    "body": [
+      "<template>",
+      "  ${1:$TM_FILENAME_BASE}",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "${3}",
+      "</script>",
+      "",
+      "<script lang=\"ts\">",
+      "export default { name: '${2:$TM_FILENAME_BASE}' }",
+      "</script>",
+    ],
+    "description": "Vue3 ts setup 初始化"
+  },
+  "scss": {
+    "prefix": "ss",
+    "description": "Vue3 style scss",
+    "body": [
+      "",
+      "<style lang=\"scss\" scoped>",
+      "${1}",
+      "</style>"
+    ]
+  }
+}
