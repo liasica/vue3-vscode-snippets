@@ -6,7 +6,7 @@
 
 ```vue
 <template>
-  TM_FILENAME_BASE
+  ${TM_FILENAME_BASE}
 </template>
 
 <script lang="ts" setup>
@@ -14,7 +14,7 @@
 </script>
 
 <script lang="ts">
-export default { name: 'TM_FILENAME_BASE' }
+export default { name: '${TM_FILENAME_BASE}Vue' }
 </script>
 
 ```
